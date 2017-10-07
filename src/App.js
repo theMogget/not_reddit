@@ -19,7 +19,7 @@ class App extends Component {
 		this.state = {
 		topicList : this.sortTopics(dummyTopics),
 		currentView : 0,
-		maxId : 7
+		maxId : 9
 		}
 
 		this.sortTopics = this.sortTopics.bind(this);

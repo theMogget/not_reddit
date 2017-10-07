@@ -1,7 +1,7 @@
 export var dummyTopics = 
 [{
 "title" : "New petshop has some pretty good canned tuna.",
-"author" : "CALICOCAT",
+"author" : "CALICO CAT",
 "datetime" : new Date(),
 "id" : 0,
 "votes" : 0
@@ -33,7 +33,7 @@ export var dummyTopics =
 
 {
 "title" : "DAE think canned food is overrated?",
-"author" : "miaow ",
+"author" : "SNOB CAT",
 "datetime" : new Date(),
 "id" : 4,
 "votes" : 6
@@ -41,7 +41,7 @@ export var dummyTopics =
 
 {
 "title" : "A cat walked into a dog's garden, you won't believe what happened next!",
-"author" : "miaow ",
+"author" : "CLICKBAIT CAT",
 "datetime" : new Date(),
 "id" : 5,
 "votes" : 10
@@ -49,8 +49,25 @@ export var dummyTopics =
 
 {
 "title" : "Today I caught the red dot!!",
-"author" : "miaow ",
+"author" : "GOOD CAT",
 "datetime" : new Date(),
 "id" : 6,
 "votes" : 16
+},
+
+{
+"title" : "What do you do with noisy cat neighbour?",
+"author" : "STRESSED CAT",
+"datetime" : new Date(),
+"id" : 7,
+"votes" : 8
+},
+
+{
+"title" : "how catch birb?",
+"author" : "HUNGRY CAT",
+"datetime" : new Date(),
+"id" : 8,
+"votes" : 21
 }]
+

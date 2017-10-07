@@ -14,7 +14,7 @@ class TopicForm extends Component {
 	}
 
 	handleAuthorChange(e) {
-		this.setState({authorValue : e.target.value.toUpperCase()});
+		this.setState({authorValue : e.target.value});
 	}
 	
 	handleTitleChange(e) {
@@ -30,7 +30,7 @@ class TopicForm extends Component {
 				} else {
 					e.preventDefault()
 					alert("Submitted! Sending you back home...")
-					this.props.addTopic( this.state.titleValue, this.state.authorValue )
+					this.props.addTopic( this.state.titleValue, this.state.authorValue.toUpperCase() + ' CAT' )
 					this.props.setView( 0 )
 				}
 			}}>

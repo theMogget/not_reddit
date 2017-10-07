@@ -8,7 +8,7 @@ Since I spent an evening or two learning the language, I didn't leave time and a
 
 I mainly followed the React quickstart resources on Facebook's github page. This simple app was compiled using create-react-app to generate the skeleton code. The pages were written by myself.
 
-The app loads a few dummy topics when started, these can be found in the dummyTopics.js file in the public folder.
+The app loads a few dummy topics when started, these can be found in the dummyTopics.js file in /src.
 
 It has been deployed on heroku [here](https://not-reddit-carousell.herokuapp.com).
 
