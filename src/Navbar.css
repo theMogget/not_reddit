@@ -1,0 +1,19 @@
+.navbar {
+	display: block;
+	padding-bottom: 50;
+}
+
+.sitename {
+	color:green;
+	font-size: 40;
+	kerning: 10px;
+	float: left;
+	padding-left: 50px;
+
+}
+
+.navlink {
+	font-size: 30;
+	float: left;
+	padding-left: 50px;
+}

@@ -35,8 +35,6 @@ class Home extends Component {
 			{this.props.topicList.map ((topic) => {
 				return <DisplayTopic key={topic.id} topic={topic} updateVotes={this.props.updateVotes}/>
 			})}
-
-			<button>submit</button>
 			</div>
 		)
 	}

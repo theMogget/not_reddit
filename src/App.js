@@ -3,6 +3,7 @@ import './App.css';
 import {dummyTopics} from './dummyTopics.js';
 import Home from './Home.js'
 import Submit from './Submit.js'
+import Navbar from './Navbar.js'
 
 class App extends Component {
   constructor(props) {
@@ -65,12 +66,39 @@ class App extends Component {
 
   render () {
 	console.log(this.state.topicList);
-	return (
-		<div>
-			<Home topicList={this.state.topicList} updateVotes={this.updateVotes} />
-			<Submit addTopic={this.addTopic} />
-		</div>
-	);
+	switch (this.state.currentView) {
+		case 0:
+			return (
+				<div>
+					<Navbar setView={this.setView}/>
+					<Home topicList={this.state.topicList} updateVotes={this.updateVotes} />
+				</div>
+			);
+
+		case 1:
+			return (
+				<div>
+					<Navbar setView={this.setView}/>
+					<Submit addTopic={this.addTopic} />
+				</div>
+			);
+
+		case 2:
+			return (
+				<div>
+					<Navbar setView={this.setView}/>
+					about
+				</div>
+			);
+		
+		default:
+			return (
+				<div>
+					<Navbar setView={this.setView}/>
+					<Home topicList={this.state.topicList} updateVotes={this.updateVotes} />
+				</div>
+			);
+	}
   }
   
 }
