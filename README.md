@@ -13,4 +13,5 @@ The app loads a few dummy topics when started, these can be found in the dummyTo
 It has been deployed on heroku [here](https://not-reddit-carousell.herokuapp.com).
 
 Hope you like it and thanks again!
- -- Kai
+
+-- Kai
