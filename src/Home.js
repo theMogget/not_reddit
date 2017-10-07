@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import './Home.css'
 
 class Votes extends Component {
-	// renders an up and downvote button, and displays the number of votes
+	// renders an up and downvote button, and displays the number of votes sds s
 
 	render () {
 		return (
 			<div className="votes">
-				<button onClick={() => this.props.updateVotes(this.props.topic.id,1)}>up</button><br/>
-				{this.props.topic.votes}<br/>
-				<button onClick={() => this.props.updateVotes(this.props.topic.id,0)}>down</button>
+				<img className="button" src="./icon_up.png" alt="" onClick={() => this.props.updateVotes(this.props.topic.id,1)}/>
+				<br/>{this.props.topic.votes}<br/>
+				<img className="button" src="./icon_down.png" alt="" onClick={() => this.props.updateVotes(this.props.topic.id,0)}/>
 			</div>
 		)
 	}
@@ -26,8 +26,7 @@ class DisplayTopic extends Component {
 					{this.props.topic.title}
 				</div>
 				<div className="info">
-					submitted on {this.props.topic.datetime.toLocaleString() + ' '} by 
-{' ' + this.props.topic.author}
+					submitted on {this.props.topic.datetime.toLocaleString() + ' '} by {' ' + this.props.topic.author}
 				</div>
 			</div>
 		);

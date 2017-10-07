@@ -20,7 +20,7 @@ export var dummyTopics =
 "author" : "SOME CAT",
 "datetime" : new Date(),
 "id" : 2,
-"votes" : 231
+"votes" : 21
 },
 
 {
@@ -28,7 +28,7 @@ export var dummyTopics =
 "author" : "BEST CAT",
 "datetime" : new Date(),
 "id" : 3,
-"votes" : 625
+"votes" : 11
 },
 
 {
@@ -36,21 +36,21 @@ export var dummyTopics =
 "author" : "miaow ",
 "datetime" : new Date(),
 "id" : 4,
-"votes" : 123
+"votes" : 6
 },
 
 {
 "title" : "A cat walked into a dog's garden, you won't believe what happened next!",
 "author" : "miaow ",
 "datetime" : new Date(),
-"id" : 4,
-"votes" : 123
+"id" : 5,
+"votes" : 10
 },
 
 {
-"title" : "DAE think canned food is overrated?",
+"title" : "Today I caught the red dot!!",
 "author" : "miaow ",
 "datetime" : new Date(),
-"id" : 4,
-"votes" : 123
+"id" : 6,
+"votes" : 16
 }]

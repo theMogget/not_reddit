@@ -24,18 +24,29 @@ class TopicForm extends Component {
 	render () {
 		return (
 			<form className='submit' onSubmit={(e) => {
-				e.preventDefault()
-				this.props.addTopic( this.state.titleValue, this.state.authorValue
-			)}}>
-				<label>
-					Title:
-					<input type="text" value={this.state.titleValue} onChange={this.handleTitleChange}/>
+				if (this.state.titleValue === '' || this.state.authorValue === '') {
+					alert("Please make sure you enter both a title and author!")
+					e.preventDefault()
+				} else {
+					e.preventDefault()
+					alert("Submitted! Sending you back home...")
+					this.props.addTopic( this.state.titleValue, this.state.authorValue )
+					this.props.setView( 0 )
+				}
+			}}>
+				<label className="label">
+					Topic
+					<br/>
+					<input className="topic" type="text" value={this.state.titleValue} onChange={this.handleTitleChange}/>
+					<br/>
 				</label>
-				<label>
-					Author:
+				<label className="label">
+					Author
+					<br/>
 					<input type="text" value={this.state.authorValue} onChange={this.handleAuthorChange}/>
+					<br/>
 				</label>
-				<input type="submit" value="Submit!!!! yeah go!!" />
+				<input className="button" type="submit" value="Submit!" />
 			</form>
 		)
 	}
@@ -48,7 +59,7 @@ class Submit extends Component {
 	render () {
 		return (
 			<div>
-				<TopicForm addTopic={this.props.addTopic} />
+				<TopicForm addTopic={this.props.addTopic} setView={this.props.setView}/>
 			</div>
 		)
 	}

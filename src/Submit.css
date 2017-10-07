@@ -4,3 +4,25 @@
 	margin-left: 50px;
 	padding-top: 125px;
 }
+
+.label {
+	color: #88B04B;
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 1px;	
+}
+
+input {
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: none;
+    border-bottom: 2px solid #cecece;
+}
+
+.topic {
+	width: 500px;
+}
+
+.button {
+	font-size: 25px;
+}

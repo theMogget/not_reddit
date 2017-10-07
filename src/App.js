@@ -4,6 +4,7 @@ import {dummyTopics} from './dummyTopics.js';
 import Home from './Home.js'
 import Submit from './Submit.js'
 import Navbar from './Navbar.js'
+import About from './About.js'
 
 class App extends Component {
 	// app is the overall controller
@@ -18,7 +19,7 @@ class App extends Component {
 		this.state = {
 		topicList : this.sortTopics(dummyTopics),
 		currentView : 0,
-		maxId : 5
+		maxId : 7
 		}
 
 		this.sortTopics = this.sortTopics.bind(this);
@@ -94,7 +95,7 @@ class App extends Component {
 				return (
 					<div>
 						<Navbar setView={this.setView}/>
-						<Submit addTopic={this.addTopic} />
+						<Submit addTopic={this.addTopic} setView={this.setView}/>
 					</div>
 				);
 
@@ -102,7 +103,7 @@ class App extends Component {
 				return (
 					<div>
 						<Navbar setView={this.setView}/>
-						about
+						<About />
 					</div>
 				);
 

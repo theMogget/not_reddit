@@ -1,0 +1,17 @@
+.about {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	margin-left: 50px;
+	padding-top: 125px;
+}
+
+.header {
+	color: #88B04B;
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.body {
+	padding-top: 10px;
+}
