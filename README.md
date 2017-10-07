@@ -6,6 +6,8 @@ This is actually my first time using JavaScript (and by extension React). I got 
 
 Since I spent an evening or two learning the language, I didn't leave time and also am not sure how to write unit tests for this kind of app. I had fun though, and am happy to have been able to at least submit something. :)
 
+## the app
+
 I mainly followed the React quickstart resources on Facebook's github page. This simple app was compiled using create-react-app to generate the skeleton code. The pages were written by myself.
 
 The app loads a few dummy topics when started, these can be found in the dummyTopics.js file in /src.
