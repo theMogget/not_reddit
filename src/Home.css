@@ -1,0 +1,36 @@
+.home {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	margin-left: 50px;
+	padding-top: 125px;
+}
+
+.title {
+	color: #88B04B;
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+
+}
+
+.info {
+	color: #707070;
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 20px;
+
+}
+
+.votes {
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.title:hover {
+	color: #cecece;
+	opacity: 70%;
+}

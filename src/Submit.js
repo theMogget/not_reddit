@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Submit.css'
 
 class TopicForm extends Component {
 
@@ -22,7 +23,7 @@ class TopicForm extends Component {
 
 	render () {
 		return (
-			<form onSubmit={(e) => {
+			<form className='submit' onSubmit={(e) => {
 				e.preventDefault()
 				this.props.addTopic( this.state.titleValue, this.state.authorValue
 			)}}>

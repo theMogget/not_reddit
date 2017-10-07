@@ -1,33 +1,54 @@
-export var dummyTopics = [{
-"title" : "0meow meow meow",
-"author" : "calicocat",
+export var dummyTopics = 
+[{
+"title" : "New petshop has some pretty good canned tuna.",
+"author" : "CALICOCAT",
 "datetime" : new Date(),
 "id" : 0,
 "votes" : 0
 },
+
 {
-"title" : "1",
-"author" : "newcat",
+"title" : "top 10 tricks to remove hairballs efficiently!!",
+"author" : "CATBOT",
 "datetime" : new Date(),
 "id" : 1,
 "votes" : 3
 },
+
 {
-"title" : "2 meow meow meow",
-"author" : "alsocat",
+"title" : "Meow meow meow meow meow meow, meow meow?",
+"author" : "SOME CAT",
 "datetime" : new Date(),
 "id" : 2,
 "votes" : 231
 },
+
 {
-"title" : "3 meow meow meow",
-"author" : "best cat",
+"title" : "IAMA cat, AMA.",
+"author" : "BEST CAT",
 "datetime" : new Date(),
 "id" : 3,
 "votes" : 625
 },
+
 {
-"title" : "4 meow meow meow",
+"title" : "DAE think canned food is overrated?",
+"author" : "miaow ",
+"datetime" : new Date(),
+"id" : 4,
+"votes" : 123
+},
+
+{
+"title" : "A cat walked into a dog's garden, you won't believe what happened next!",
+"author" : "miaow ",
+"datetime" : new Date(),
+"id" : 4,
+"votes" : 123
+},
+
+{
+"title" : "DAE think canned food is overrated?",
 "author" : "miaow ",
 "datetime" : new Date(),
 "id" : 4,

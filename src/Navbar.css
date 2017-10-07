@@ -1,19 +1,36 @@
 .navbar {
-	display: block;
-	padding-bottom: 50;
+	background-color: #f7f7f7;
+	overflow: hidden;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	position: fixed;
+	width: 100%;
 }
 
 .sitename {
-	color:green;
-	font-size: 40;
-	kerning: 10px;
+	display: block;
 	float: left;
 	padding-left: 50px;
+	padding-right: 25px;
+	color: #88B04B;
+	font-weight: 400;
+	font-size: 35px;
+	letter-spacing: 9px;
 
 }
 
 .navlink {
-	font-size: 30;
+	display: block;
 	float: left;
-	padding-left: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 6px;
+	text-align: center;
+	font-weight: 400;
+	color: #707070;
+	font-size: 27px;
+}
+
+.navlink:hover {
+	color: #cecece;
 }
