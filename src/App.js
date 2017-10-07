@@ -42,7 +42,7 @@ class App extends Component {
 		// initialises based on two input parameters
 		// sorts the list before setting state
 
-		var votes = 0;
+		var votes = 1;
 		var datetime = new Date();
 
 		var topic = [{
