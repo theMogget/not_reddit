@@ -3,6 +3,7 @@
 	font-weight: 400;
 	margin-left: 50px;
 	padding-top: 125px;
+	z-index: 1;
 }
 
 .title {
