@@ -1,10 +1,6 @@
 # not_reddit
 
-Hi Carousell! Thanks for considering me as a candidate. 
-
-This is actually my first time using JavaScript (and by extension React). I got a lot of help from my friends, who pointed me in the right direction about how to get started, what packages to install, and debugging many strange syntax issues.
-
-Since I spent an evening or two learning the language, I didn't leave time and also am not sure how to write unit tests for this kind of app. I had fun though, and am happy to have been able to at least submit something. :)
+This was a small project done over the weekend as part of a take-home assignment for an interview.
 
 ## the app
 
